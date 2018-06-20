@@ -1,0 +1,415 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: url(imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+}
+.fondo-index
+{
+	background: url(imagenes/fondo5.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+}
+.fondo-gondolas
+{
+	background: url(imagenes/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+}
+header
+{
+	width: 100%;
+	overflow: hidden;
+	background: #252932;
+	margin-bottom: 20px;
+}
+.centrar
+{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+header .logo
+{
+	color: #f2f2f2;
+	font-size: 40px;
+	line-height: 100px;
+	float: left;
+}
+header nav
+{
+	float: right;
+	line-height: 100px;
+}
+header nav a
+{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 15px;
+	font-weight: bold;
+}
+header nav a:hover
+{
+	background: #f56f3a;
+	border-radius: 50px;
+}
+.main
+{
+	width: 100%;
+	max-width: 100%;
+	margin: 20px auto;
+}
+.slides /*Cambiar el tamano del slideshow*/
+{
+	width: 100%;
+}
+.slides > img
+{
+	width: 100%;
+}
+.slidesjs-pagination
+{
+	background: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination > li
+{
+	float: left;
+}
+.slidesjs-pagination > li > a
+{
+	display: block;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+}
+.slidesjs-pagination > li > a:hover
+{
+	background: #000;
+}
+
+.slides .active
+{
+	background: #000;
+}
+.slidesjs-navigation
+{
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 11px 20px;
+	float: right;
+}
+.bebidas
+{
+	background: rgba( 55, 56, 56, 0.5);
+	margin-bottom: 10px;
+}
+
+.bebidas img
+{
+	width: 140px;
+	height: 140px;
+}
+.efecto 
+{
+	display:inline-block;
+	padding: 0px 53px 0px 0px;
+}
+.efecto h4
+{
+	position: relative;
+	text-align: center;
+	visibility: hidden;
+	font-size: 15px;
+	background: #fff;
+	color: #fa6b36; 
+}
+.efecto:hover h4
+{
+	visibility: visible;
+}
+.caldos img
+{
+	width: 140px;
+	height: 140px;
+}
+.caldos
+{
+	background: rgba( 55, 56, 56, 0.5);
+	margin-bottom: 20px;
+}
+.carnes img
+{
+	width: 140px;
+	height: 140px;
+}
+.carnes
+{
+	background: rgba( 55, 56, 56, 0.5);
+	margin-bottom: 20px;
+}
+.embutidos img
+{
+	width: 140px;
+	height: 140px;
+}
+.embutidos
+{
+	background: rgba( 55, 56, 56, 0.5);
+	margin-bottom: 20px;
+}
+.cereales img
+{
+	width: 135px;
+	height: 140px;	
+}
+.cereales
+{
+	background: rgba( 55, 56, 56, 0.5);
+	margin-bottom: 20px;	
+}
+.arroz img
+{
+	width: 140px;
+	height: 140px;
+}
+.arroz
+{
+	background: rgba( 55, 56, 56, 0.5);
+	margin-bottom: 20px;
+}
+.productos h2
+{
+	text-align: center;
+	font-size: 30px;
+	color: #b6faa5; 
+}
+.gondolas
+{
+	float: left;
+	color: #fff;
+	margin: 40px 0px 20px 400px;
+	background-color: rgba(55, 56, 56, 0.5);
+	text-align: justify;
+	font-size: 25px;
+}
+.seleccion
+{
+	text-decoration: none;
+	color: #fa6b36;
+}
+footer
+{
+	width: 100%;
+	float: left;
+	clear: both;
+	box-shadow: 0px 2px 2px #000;
+	border-radius: 5px;
+	background: #252932;
+}
+footer section
+{
+	width: 440px;
+	float: left;
+	padding: 20px;
+}
+footer #acerca
+{
+	font-size: 12px;
+	color: #8c8c8c;
+	text-align: justify;
+	line-height: 20px;
+}
+footer #acerca h3
+{
+	font-family: sourcesans-light;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+#copyright
+{
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 5px;
+	text-align: center;
+	background: rgb( 55, 56, 56);
+	box-shadow: 0px 2px 2px #000;
+}
+/*Estilos para el registro*/
+.container
+{
+	max-width: 450px;
+	height: auto;
+	background-color: #efefef;
+	margin: 5% auto;
+	padding-bottom: .1rem;
+}
+.form_top
+{
+	width: 100%;
+	text-align: center;
+	padding: .2rem 0 .1rem;
+	border-top: solid .4rem #f39b53;
+	margin-bottom: .1rem;
+}
+.form_top h2
+{
+	font-weight: bold;
+	color: #cac8c8;
+	font-size: 18px;
+}
+.form_top h2 > span
+{
+	color: #f39b53;
+}
+.form_reg
+{
+	padding: 0 .2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+.btn_form
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: .1rem;
+}
+.input, .btn_submit, .btn_reset
+{
+	background-color: #efefef;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #c8c8c8 .2rem;
+	transition: all 5$; 
+}
+.input:focus
+{
+	border-bottom: solid #f39b53 .2rem;
+}
+.btn_submit, .btn_reset
+{
+	width: 40%;
+	border-bottom: none;
+	background-color: #31b1e5;
+	color: white;
+}
+.btn_reset
+{
+	background-color: #eda135;
+}
+.btn_submit:hover
+{
+	background-color: #4c9ed9;
+}
+.btn_reset:hover
+{
+	background-color: #fa9535;
+}
+/*Estilos para el login*/
+.login_container
+{
+	background-color: #efefef;
+	width: 350px;
+	border-top: solid .5rem #f39b53;
+	box-sizing: 3rem 0;
+	box-shadow: 0 0 .5rem #8a8c8c; 
+	margin: 5% auto;
+}
+.login_top
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login_title
+{
+	color: #8a8c8c;
+}
+.login_title span
+{
+	color: #f39b53;
+}
+.login_img
+{
+	width: 8rem;
+	border-radius: 50%;
+}
+.login_form
+{
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 2rem 0;
+}
+input[type=text]:focus, [type=password]:focus
+{
+	border-color: #c8c8c8;
+	background-color: #efefef;
+}
+.btn_submit_login
+{
+	height: 2.5rem;
+	border: none;
+	background-color: #31b1e5;
+	color: white;
+	padding: .5px;
+	margin: .5rem 0 .3rem;
+}
+.btn_crear
+{
+	height: 2.5rem;
+	border: none;
+	background-color: #f9623d;
+	color: white;
+	padding: .5px;
+	margin: .5rem 0 .3rem;
+	text-decoration: none;
+	text-align: center;
+}
+.btn_crear:hover
+{
+	background-color: #f9bd3d;	
+}
+.btn_submit_login:hover
+{
+	background-color: #39a1e5;
+}
+.form_recover
+{
+	color: #f39b53;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+}
+.form_recover:hover
+{
+	color: #e67e22;
+}
+.nosotros
+{
+	float: left;
+	color: #fff;
+	background-color: rgba(55, 56, 56, 0.5);
+	text-align: justify;
+	font-size: 15px;
+}
